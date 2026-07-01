@@ -1,0 +1,73 @@
+canonical_identifier: bkk:krp/KR6n0100/v1
+canonical_location: https://kanripo.org/bkk/KR6n0100/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 大乘百法明門論註
+  identifiers:
+    alt_id:
+    - L149n1629
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/L/L149/L149n1629.xml
+    old_id: L149n1629
+  edition:
+    short: bkk
+editions:
+- short: 龍
+  label: 龍
+  source_xml_id: wit.orig
+- short: L
+assets:
+  parts:
+  - {seq: 0, filename: KR6n0100_000.yaml, hash: 'sha256:9c03065a23091965eb5501bf7a6ba2ecb7c643994df6162cc1372edc08c3766d'}
+  - {seq: 1, filename: KR6n0100_001.yaml, hash: 'sha256:b0b6ecbc74d4e73a57dea6a058885696fd9f1e154aac48be43fb3cb41bfb166d'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6n0100_000.markers.yaml, hash: 'sha256:c618ab9132af5203143120b728066c3fe08361dc7c7810c08d1f749c52dfef74'}
+  - {seq: 1, role: markers, filename: assets/KR6n0100_001.markers.yaml, hash: 'sha256:e5bec9294d5c3cf4c01a4edb2eb7717d3e9fbfcbb07b01caeb6a383e10d32265'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR6n0100_L_000-mulu-1
+    span:
+    - front
+    - 0
+    - 0
+  label: 科分
+  type: mulu
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR6n0100_L_000-mulu-2
+    span:
+    - front
+    - 325
+    - 325
+  label: 註解
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6n0100_L_001-juan-start
+    span:
+    - body
+    - 0
+    - 10005
+  label: 大乘百法明門論　本地分中畧錄名數
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6n0100_L_001-mulu-1
+    span:
+    - body
+    - 8825
+    - 8825
+  label: 唯識三十論
+  type: mulu
+  level: 1
+hash: sha256:47c183ca9847a477cf36d315b65fde31cd32161cbff3a712bcf100233739165c
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
