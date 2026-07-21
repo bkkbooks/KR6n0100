@@ -19,17 +19,17 @@ metadata:
     short: L
 assets:
   parts:
-  - {seq: 0, filename: KR6n0100_000-L.yaml, hash: 'sha256:db4a7e8828e7e2c08806a2ee5c7390040ac051c6f67c94509b6a1f2747fc02d2'}
+  - {seq: 0, filename: KR6n0100_000-L.yaml, hash: 'sha256:807e9c172e04304224043d814cd592e131446bf3d0fca132c3acc41ecf254814'}
   - {seq: 1, filename: KR6n0100_001-L.yaml, hash: 'sha256:40e65a52d47aae7e49f4297ea49fea034d7f22a19d40f093cc7c7aead03bed25'}
   markers:
-  - {seq: 0, role: markers, filename: assets/KR6n0100_000-L.markers.yaml, hash: 'sha256:a8b35d24c183f5c324949ca33adc215c872ca0096cd5a96afbc97579f8bc4105'}
+  - {seq: 0, role: markers, filename: assets/KR6n0100_000-L.markers.yaml, hash: 'sha256:185a4075b36296b538e9bd9d52cfa32e8ee815eeaee1739c0a5a5861b9f4a34a'}
   - {seq: 1, role: markers, filename: assets/KR6n0100_001-L.markers.yaml, hash: 'sha256:b0cadb16072233abc5cda9c2e7c069e5093ee91628fd3f485c7163222deacd03'}
 table_of_contents:
 - ref:
     seq: 0
     marker_id: KR6n0100_L_000-mulu-1
     span:
-    - front
+    - body
     - 0
     - 0
   label: 科分
@@ -39,7 +39,7 @@ table_of_contents:
     seq: 0
     marker_id: KR6n0100_L_000-mulu-2
     span:
-    - front
+    - body
     - 325
     - 325
   label: 註解
@@ -65,4 +65,4 @@ table_of_contents:
   label: 唯識三十論
   type: mulu
   level: 1
-hash: sha256:d95bd7a3a3fb8e8155122adf6611368bd720c803de6f07f934530ea3ad59a84d
+hash: sha256:0c0d18c3a36e28d0e988aa18cd3242f6c3b3badebfc180e2c27c224287f582fc
